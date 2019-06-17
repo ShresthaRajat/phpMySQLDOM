@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="catalog_17030954.css"?>
+<company>
+  <company_details>
+    <company_url>www.BlazingComet.com</company_url>
+    <company_name>Blazing Comet Corp.</company_name>
+    <company_location>Kathmandu</company_location>
+    <company_phone_number>9842998738</company_phone_number>
+    <company_phone_number>9842998711</company_phone_number>
+    <company_logo/>
+  </company_details>
+  <ceo>
+    <ceo_name>Rajat Shrestha</ceo_name>
+    <ceo_phone>982749823</ceo_phone>
+    <ceo_address>Samakhushi</ceo_address>
+  </ceo>
+  <departments>
+    <sub_departments>
+      <supervisor>CEO</supervisor>
+      <department department_id="1">
+        <department_name>Research and Development</department_name>
+        <department_description>To discover new tech which will make your life easier.</department_description>
+        <emps>
+          <emp>
+            <emp_name>Rajat</emp_name>
+            <emp_type>Researcher</emp_type>
+          </emp>
+          <emp>
+            <emp_name>Tejan</emp_name>
+            <emp_type>Developer</emp_type>
+          </emp>
+          <emp>
+            <emp_name>Nikolas</emp_name>
+            <emp_type>Jr. Developer</emp_type>
+          </emp>
+        </emps>
+      </department>
+      <department department_id="2">
+        <department_name>Marketing</department_name>
+        <department_description>To convey our ideas to you by showcasing our products.</department_description>
+        <emps>
+          <emp>
+            <emp_name>Sonya</emp_name>
+            <emp_type>Marketing Girl</emp_type>
+          </emp>
+          <emp>
+            <emp_name>Sagar</emp_name>
+            <emp_type>Marketing Boy</emp_type>
+          </emp>
+        </emps>
+      </department>
+      <department department_id="3">
+        <department_name>Human Resource Department</department_name>
+        <department_description>Our Hire and Fire Department to oversee our employees</department_description>
+        <emps>
+          <emp>
+            <emp_name>Reisa</emp_name>
+            <emp_type>HR Manager</emp_type>
+          </emp>
+        </emps>
+      </department>
+    </sub_departments>
+    <sub_departments>
+      <supervisor>Project Manager</supervisor>
+      <department department_id="4" team_lead="Pranaya Pradhan">
+        <department_name>Mobile Development</department_name>
+        <department_description>Products for mobile Devices (IOS and Android).</department_description>
+        <emps>
+          <emp>
+            <emp_name>George</emp_name>
+            <emp_type>Kotlin Developer</emp_type>
+          </emp>
+          <led>
+            <emp_name>Pranaya</emp_name>
+            <emp_type>Project Manager</emp_type>
+          </led>
+        </emps>
+      </department>
+      <department department_id="5" team_lead="Anu Bajracharya">
+        <department_name>Web Development</department_name>
+        <department_description>Department to create Websites and web stuffs.</department_description>
+        <emps>
+          <emp>
+            <emp_name>Aastha</emp_name>
+            <emp_type>Front End Developer</emp_type>
+          </emp>
+          <led>
+            <emp_name>Anu</emp_name>
+            <emp_type>UI/UX Designer</emp_type>
+          </led>
+          <emp>
+            <emp_name>Subkshya</emp_name>
+            <emp_type>Back End Developer</emp_type>
+          </emp>
+        </emps>
+      </department>
+    </sub_departments>
+  </departments>
+  <employees>
+    <employee employee_department="Research and Development">
+      <employee_name>Rajat Shrestha</employee_name>
+      <employee_address>Samakhushi</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>kasudyy@gmail.com</employee_email>
+      <employee_type>Researcher</employee_type>
+      <employee_department>Research and Development</employee_department>
+    </employee>
+    <employee employee_department="Research and Development">
+      <employee_name>Tejan Malla</employee_name>
+      <employee_address>Koteswor</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>tejan@gmail.com</employee_email>
+      <employee_type>Developer</employee_type>
+      <employee_department>Research and Development</employee_department>
+    </employee>
+    <employee employee_department="Research and Development">
+      <employee_name>Nikolas Shrestha</employee_name>
+      <employee_address>Tokyo</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>niko@gmail.com</employee_email>
+      <employee_type>Jr. Developer</employee_type>
+      <employee_department>Research and Development</employee_department>
+    </employee>
+    <employee employee_department="Marketing">
+      <employee_name>Sonya Khadka</employee_name>
+      <employee_address>Maitidevi</employee_address>
+      <employee_phone>2147483647</employee_phone>
+      <employee_email>sonya@gmail.com</employee_email>
+      <employee_type>Marketing Girl</employee_type>
+      <employee_department>Marketing</employee_department>
+    </employee>
+    <employee employee_department="Marketing">
+      <employee_name>Sagar Shakya</employee_name>
+      <employee_address>Koteswor</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>sagar@gmail.com</employee_email>
+      <employee_type>Marketing Boy</employee_type>
+      <employee_department>Marketing</employee_department>
+    </employee>
+    <employee employee_department="Human Resource Department">
+      <employee_name>Reisa Shakya</employee_name>
+      <employee_address>Samakhushi</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>rrr@gmail.com</employee_email>
+      <employee_type>HR Manager</employee_type>
+      <employee_department>Human Resource Department</employee_department>
+    </employee>
+    <employee employee_department="Mobile Development">
+      <employee_name>George Maharjan</employee_name>
+      <employee_address>Pepsicola</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>george@gmail.com</employee_email>
+      <employee_type>Kotlin Developer</employee_type>
+      <employee_department>Mobile Development</employee_department>
+    </employee>
+    <employee employee_department="Web Development">
+      <employee_name>Aastha Pradhan</employee_name>
+      <employee_address>Patan</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_email>aastha@gmail.com</employee_email>
+      <employee_type>Front End Developer</employee_type>
+      <employee_department>Web Development</employee_department>
+    </employee>
+    <employee employee_department="Web Development">
+      <employee_name>Anu Bajracharya</employee_name>
+      <employee_address>Thamel</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_type>UI/UX Designer</employee_type>
+      <employee_department>Web Development</employee_department>
+    </employee>
+    <employee employee_department="Mobile Development">
+      <employee_name>Pranaya Pradhan</employee_name>
+      <employee_address>Thamel</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_type>Project Manager</employee_type>
+      <employee_department>Mobile Development</employee_department>
+    </employee>
+    <employee employee_department="Web Development">
+      <employee_name>Subkshya Pradhan</employee_name>
+      <employee_address>Pepsicola</employee_address>
+      <employee_phone>986312634</employee_phone>
+      <employee_type>Back End Developer</employee_type>
+      <employee_department>Web Development</employee_department>
+    </employee>
+  </employees>
+</company>

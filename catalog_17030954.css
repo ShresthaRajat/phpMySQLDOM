@@ -1,0 +1,321 @@
+/* 
+main: 111111#111111
+accent: d63040
+grey: 333333
+white: fff
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+company {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  background-color: #111111; 
+  margin: auto;
+  border: 30px solid #333333;
+  padding: 45px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-width: 500px;
+}
+
+/* det */
+  company_detail {
+    
+    color: #fff;
+    width: 60vw;
+    height: 10vh;
+    display: block;
+    font: bold 20em Arial, Helvetica, sans-serif;
+    }
+
+  company_url {
+    
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -70px;
+    width: 103%;
+    text-align: center;
+    display: block;
+    font-size: 11pt;
+    font-style: italic;
+    color: #111111;
+    background-color: #fff;
+  }
+
+
+  company_name {
+    margin-top: 60px;
+    margin-left: 200px;
+    display: block;
+    font: bold 2em Arial, Helvetica, sans-serif;
+    padding: 1%;
+    color: #fff;
+  }
+
+
+  company_location {
+    margin-left: 200px;
+    display: block;
+    font: bold 0.8em Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0.5%;
+    padding-left: 2%;
+  }
+
+  company_phone_number {
+    margin-left: 200px;
+    display: list-item;
+    list-style-type: none; 
+    font: bold 0.7em Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-left: 2%;
+  }
+
+  company_logo {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    display: inline-block;
+    padding: 7%;
+    background-image:url(logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+ceo:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 170%;
+  content: "CEO";
+  margin: -1.75em 100px .25em 1.25em;
+  padding: .1em .4em;
+  background-color: #d63040;
+  }
+
+ceo {
+  text-align: center;
+  display: block;
+  margin: 200px 10vw;
+  border: 1px solid #fff;
+  padding: 2em 0.81em;
+  background-color: #333333;
+  height: 40%;
+}
+
+ceo_name {
+  display: block;
+  font-size: 2em;
+}
+ceo_phone {
+  display: block;
+  font-size: 1.2em;
+}
+ceo_address {
+  display: block;
+  font-size: 1em;
+}
+
+departments:before {
+  display: block;
+  left: 100px;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Departments";
+  margin: -1.3em 0px .25em -1.25em;
+  padding: .1em .25em;
+  color: #fff;
+  background-color: #d63040;
+}
+
+
+departments {
+  margin-top: 10px; 
+  text-align: center;
+  display: block;
+  background-color: #111111;
+  box-sizing: border-box;
+  border: 1px solid #d63040;
+  padding: 20px;
+}
+
+supervisor {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 140%;
+  content: "Sub Departments";
+  margin: -0.2em 0em 0em 6em;
+  padding: .1em .25em;
+  color: #fff;
+  background-color: #333333;
+}
+sub_departments {
+  margin: 20px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+}
+
+
+department  {
+  margin: 20px;
+  display: inline-block;
+  white-space: pre-line;
+  width: 29%;
+  padding: 5px;
+  background: #d63040;
+  min-width: 300px;
+  height: auto;
+}
+
+department_name {
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+
+department_description {
+  display: block;
+  font-size:  20px;
+  color: #111111;
+  
+}
+
+emps {
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+}
+emp  {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  color: #fcd7d7;
+}
+emp:hover  {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  color: #fcd7d7;
+  background: #333333;
+}
+led:before  {
+  color: #111111;
+  content: "lead by:";
+  font-size: 0.8em;
+}
+led  {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  color: #fcd7d7;
+}
+led:hover  {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  color: #fcd7d7;
+  background: #333333;
+}
+emp_name {
+  margin-top: 0%;
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+emp_type {
+  color: #d63040;
+  display: inline;
+  font-size: 16px;
+}
+
+employees:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Employees";
+  margin: -2em 0px .25em -1.44em;
+  padding: .1em .25em;
+  color: #ffffff;
+  background-color: #333333;
+  }
+employees {
+  margin-top: 100px;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  display: block;
+  background-color: #111111;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  padding: 30px;
+}
+employee  {
+  margin: 18px;
+  text-align: center;
+  align-self: center;
+  display: inline-block;
+  width: 12%;
+  padding: 10px;
+  height: 250px;
+  color: #111111;
+  background: #333333;
+  min-width: 230px;
+}
+employee_name {
+  margin-top: 0px;
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+employee_address{
+  margin-top: 20px;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #d63040;
+}
+employee_phone {
+  margin-top: 7px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+employee_email {
+  margin-top: 7px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+employee_type {
+  margin-top: 7px;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+}
+employee_department {
+  color: #333333;
+
+}
+
+employee:hover { 
+  background-color: #d63040;
+  
+}

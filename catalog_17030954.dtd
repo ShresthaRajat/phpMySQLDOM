@@ -1,0 +1,35 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT company (company_details,ceo,departments,employees)>
+<!ELEMENT company_details (company_url,company_name,company_location,company_phone_number+,company_logo)>
+<!ELEMENT ceo (ceo_name,ceo_phone,ceo_address)>
+<!ELEMENT departments (sub_departments)+>
+<!ELEMENT employees (employee)+>
+<!ELEMENT company_url (#PCDATA)>
+<!ELEMENT company_name (#PCDATA)>
+<!ELEMENT company_location (#PCDATA)>
+<!ELEMENT company_phone_number (#PCDATA)>
+<!ELEMENT company_logo EMPTY>
+<!ELEMENT ceo_name (#PCDATA)>
+<!ELEMENT ceo_phone (#PCDATA)>
+<!ELEMENT ceo_address (#PCDATA)>
+<!ELEMENT sub_departments (supervisor,department+)>
+<!ELEMENT employee (employee_name,employee_address,employee_phone,employee_email?,employee_type,employee_department)>
+<!ELEMENT supervisor (#PCDATA)>
+<!ELEMENT department (department_name,department_description,emps)>
+<!ELEMENT employee_name (#PCDATA)>
+<!ELEMENT employee_address (#PCDATA)>
+<!ELEMENT employee_phone (#PCDATA)>
+<!ELEMENT employee_email (#PCDATA)>
+<!ELEMENT employee_type (#PCDATA)>
+<!ELEMENT employee_department (#PCDATA)>
+<!ELEMENT department_name (#PCDATA)>
+<!ELEMENT department_description (#PCDATA)>
+<!ELEMENT emps (emp|led)+>
+<!ELEMENT emp (emp_name,emp_type)>
+<!ELEMENT led (emp_name,emp_type)>
+<!ELEMENT emp_name (#PCDATA)>
+<!ELEMENT emp_type (#PCDATA)>
+
+
+<!ATTLIST employee xmlns CDATA #FIXED '' employee_department CDATA #REQUIRED>
+<!ATTLIST department xmlns CDATA #FIXED '' department_id CDATA #REQUIRED team_lead CDATA #IMPLIED>
